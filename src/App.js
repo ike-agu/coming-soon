@@ -10,7 +10,7 @@ function App() {
         {/* <img src={} className="App-logo" alt="logo" /> */}
         <h3>Site Under construction</h3>
         <h1>
-          Grace Empowerment Assembly
+          Welcome to Grace Empowerment Assembly
         </h1>
          <h3>This is a church where the light of God shines every second</h3>
          <h3>To get in contac with us:</h3>
