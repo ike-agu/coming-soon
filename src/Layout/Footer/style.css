@@ -1,0 +1,46 @@
+.footerSection{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 22px 0;
+  background-color: #04580b;
+  color: white;
+  position:absolute;
+  width: 100%;
+
+}
+
+.footerColumn h2 {
+margin-bottom: 10px;
+}
+
+.footerColumn p{
+margin-top: 5px;
+text-align:justify;
+font-size: 12px;
+}
+
+.iconLinks{
+  font-size: 28px;
+  color: white;
+
+  margin: 5px;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 10px;
+  background-color: rgb(246, 232, 232);
+  color: white;
+  margin: 1px ;
+}
+
+.copyright a{
+  text-decoration: none;
+  color:red;
+  margin: 5px;
+}
+
+.copyright p{
+color: rgb(1, 1, 19);
+
+}

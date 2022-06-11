@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+
+  overflow: hidden;
+  background-color: #04580b;
+  position: relative;
+  top:0;
+  width: 100%;
+  padding: 10px;
+
+}
+
+
+.navLinks {
+text-align: center;
+color: white;
+
+
+}
+
+
+
+.navLinks a:hover {
+
+  color: rgb(8, 110, 110);
+  text-decoration: none;
+  transform: translateY(-3px);
+}
+
+nav a.active {
+  /* text-decoration: underline;
+  color: rgb(79, 107, 107); */
+  /* background-color: #5e5b5b; */
+  color: rgb(255, 255, 255);
+  text-decoration: 4px underline rgb(4, 57, 19);
+
+}
+
+
+
+/* =====================Nav details section ========================= */
+
+
+
+.navDetails {
+width: 100%;
+background-color: #ffffff;
+overflow: auto;
+top:48px;
+padding: 5px;
+}
+
+.navDetails p {
+float: left;
+color: rgb(8, 110, 110);
+text-decoration: none;
+font-size: 15px;
+width: 25%; /*divides the width in 4 equal parts*/
+text-align: center;
+margin: 2px;
+}
+
+.cardIcon{
+  font-size: 12px;
+}
+
+/*==============Button styling ===================== */
+
+.donate-btn{
+  float: right;
+  background-color: rgb(4, 57, 19);
+  border: 1px solid rgb(2, 41, 13);
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  width: 80px;
+  font-size: 13px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+
+.donate-btn:hover {
+  color: white;
+  background-color:rgb(2, 41, 13);
+  border: 1px solid grey;
+
+}
+
+.navLogo{
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+}

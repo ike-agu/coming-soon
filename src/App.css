@@ -1,11 +1,6 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,13 +8,29 @@
   }
 }
 
+.App-logo {
+  color: white;
+  background-color: white;
+  width: 10%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+  border: 1px solid rgb(77, 76, 76);
+
+}
+
+.App-logo:hover{
+box-shadow: 0 4px 8px 0 rgba(2, 76, 28, 0.2),
+0 6px 20px 0 rgba(2, 90, 6, 0.19);
+width: 12%;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #2a2d35;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -29,5 +40,9 @@
 }
 
 h1{
-  font-size: 80px;
+  font-size: 70px;
+}
+
+h1, h2, h3, p{
+  margin-top: 20px;
 }
