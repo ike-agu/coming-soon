@@ -22,8 +22,8 @@ export const Footer = () => {
         <h2>Contact</h2>
         <p>97, East Barnet Road, New barnet, Hertfordshire</p>
         <p>info@graceempowermentassembly.org</p>
-        <p>Mobile 1: 074123456789</p>
-        <p>Mobile 2: 074123456789</p>
+        <p>Mobile 1: 07984413361</p>
+        <p>Mobile 2: 07494052360</p>
       </div>
       <div className="footerColumn">
          <h2>Connect with us</h2>
