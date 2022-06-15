@@ -10,7 +10,7 @@ export const Header = () => {
       <div className='navDetails'>
             <p><FontAwesomeIcon icon={faPhone} className="cardIcon"/> 07984413361</p>
             <p><FontAwesomeIcon icon={faLocationDot}  className="cardIcon" />  97 East Barnet Road New barnet Hertfordshire</p>
-            <p><FontAwesomeIcon icon={faEnvelope} className="cardIcon"/>info@graceempowermentassembly.com</p>
+            <p><FontAwesomeIcon icon={faEnvelope} className="cardIcon"/> info@graceempowermentassembly.com</p>
         </div>
         <nav>
 

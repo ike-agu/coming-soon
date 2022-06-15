@@ -19,17 +19,16 @@ nav {
 text-align: center;
 color: white;
 
-
 }
 
 
 
-.navLinks a:hover {
+/* .navLinks a:hover {
 
   color: rgb(8, 110, 110);
   text-decoration: none;
   transform: translateY(-3px);
-}
+} */
 
 nav a.active {
   /* text-decoration: underline;
@@ -62,41 +61,38 @@ font-size: 15px;
 width: 25%; /*divides the width in 4 equal parts*/
 text-align: center;
 margin: 2px;
+display: block;
 }
 
 .cardIcon{
   font-size: 12px;
 }
 
-/*==============Button styling ===================== */
+/*==============media query  ===================== */
 
-.donate-btn{
-  float: right;
-  background-color: rgb(4, 57, 19);
-  border: 1px solid rgb(2, 41, 13);
-  border-radius: 50px;
-  cursor: pointer;
-  color: white;
-  width: 80px;
-  font-size: 13px;
-  transition: 0.5s;
-  display: flex;
-  justify-content: center;
-  margin: 15px;
-}
-
-
-.donate-btn:hover {
-  color: white;
-  background-color:rgb(2, 41, 13);
-  border: 1px solid grey;
+@media screen and (max-width: 990px) {
 
 }
 
-.navLogo{
-  width: 50px;
-  height: 40px;
-  position: absolute;
-  top: 4%;
-  left: 10%;
+@media screen and (max-width: 770px){
+  .navLinks h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+   .cardIcon  {
+    margin-right: 5px;
+  }
+
+  .navDetails p {
+    color: rgb(8, 110, 110);
+    text-decoration: none;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+    margin: 2px;
+
+  }
 }
+
+

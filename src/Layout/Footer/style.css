@@ -12,6 +12,9 @@
 .footerColumn h2 {
 margin-bottom: 10px;
 }
+.footerColumn {
+padding: 0 10px;
+}
 
 .footerColumn p{
 margin-top: 5px;
@@ -42,5 +45,38 @@ font-size: 12px;
 
 .copyright p{
 color: rgb(1, 1, 19);
+
+}
+
+
+/*==============media query  ===================== */
+
+
+@media screen and (max-width: 990px) {
+  .footerSection {
+    display: grid;
+    grid-template-columns: center;
+    grid-gap: 20px;
+    padding: 22px 0;
+    background-color: #04580b;
+    color: white;
+    position: absolute;
+    width: 100%;
+
+  }
+
+}
+@media screen and (max-width: 770px) {
+  .footerSection {
+    display: grid;
+    grid-template-columns: 1fr 1f;
+    grid-gap: 20px;
+    padding: 22px 0;
+    background-color: #04580b;
+    color: white;
+    position: absolute;
+    width: 100%;
+
+  }
 
 }
