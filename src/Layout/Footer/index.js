@@ -29,9 +29,9 @@ export const Footer = () => {
          <h2>Connect with us</h2>
           <div className="iconLinks">
             <a href="https://www.youtube.com/channel/UC0g5vdBj6NUXYJ1up-PCoiA/videos" rel="noreferrer"  target="_blank"><FontAwesomeIcon icon={faYoutube} className="iconLinks"/></a>
-            <a href="/" target="_blank"><FontAwesomeIcon icon={faFacebook} className="iconLinks"/></a>
-            <a href="/" target="_blank"><FontAwesomeIcon icon={faInstagram} className="iconLinks"/></a>
-            <a href="/" target="_blank"><FontAwesomeIcon icon={faTwitter} className="iconLinks"/></a>
+            <a href="https://www.youtube.com/channel/UC0g5vdBj6NUXYJ1up-PCoiA/videos" rel="noreferrer"  target="_blank"><FontAwesomeIcon icon={faFacebook} className="iconLinks"/></a>
+            <a href="https://www.youtube.com/channel/UC0g5vdBj6NUXYJ1up-PCoiA/videos" rel="noreferrer"  target="_blank"><FontAwesomeIcon icon={faInstagram} className="iconLinks"/></a>
+            <a href="https://www.youtube.com/channel/UC0g5vdBj6NUXYJ1up-PCoiA/videos" rel="noreferrer"  target="_blank"><FontAwesomeIcon icon={faTwitter} className="iconLinks"/></a>
           </div>
       </div>
     </div>

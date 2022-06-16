@@ -21,8 +21,8 @@ function App() {
          <h3>This is a church where the light of God shines every second</h3>
          <h3> Get in touch:</h3>
          <p>email us at : info@graceempowermentassembly.com</p>
-         <p>Mobile 1 : 07984413361</p>
-         <p>Mobile 2 : 07494052360</p>
+         <p>Pastor Abey: 07984413361</p>
+         <p>Min. Ikenna: 07494052360</p>
       </header>
        <Footer/>
     </div>
